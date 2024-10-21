@@ -1,0 +1,30 @@
+body {
+  background-color: #000;
+  overflow: hidden;
+}
+
+#titulo, #poema {
+  font-family: cursive;
+  color: pink;
+  text-align: center;
+}
+
+#titulo {
+  font-size: 30px;
+  margin-bottom: 17px;
+}
+
+#poema {
+  font-size: 17px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
